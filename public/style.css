@@ -1,0 +1,55 @@
+body {
+    background-image: url("test02.png");
+    background-position: top bottom;
+    background-position-x: -4cm;
+    background-position-y: 7cm;
+    background-size: 20cm;
+    background-repeat: no-repeat;
+    background-color:rgb(238, 218, 218);
+   
+    
+}
+body nav {
+  text-align: right;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: rgb(238, 6, 6);
+  background-image: url("logo1-svg.png");
+  background-size: 2.5cm;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  
+}
+
+.form-group {
+     
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    
+    
+}
+ 
+.form-control {
+    background: rgb(4, 50, 71);
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+.form-control::placeholder {
+    color: white;
+}
+.btn {
+    background:rgb(173, 67, 103);
+    border: black;
+    color: white;
+    
+    position:fixed;
+    right:7cm;
+    outline-width:thick;
+    outline-color: rosybrown;
+}
